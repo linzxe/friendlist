@@ -1,3 +1,52 @@
-p {
+body {
+  margin: 5px;
+  background-color: #bccad6;
+}
+
+
+.smContainer {
 	font-family: 'Gloria Hallelujah', cursive;
+    background-color: #8d9db6;
+    padding: 10px 50px 50px 50px;
+    text-align: center;
+    border: 5px solid;
+    border-color: #667292;
+    border-style: ridge;
+}
+
+.btn-custom {
+  height: 50px;
+  width: 60px;
+  text-align: center;
+  background-color: hsl(0, 45%, 55%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#dba2a2", endColorstr="#bf5858");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#dba2a2), to(#bf5858));
+  background-image: -moz-linear-gradient(top, #dba2a2, #bf5858);
+  background-image: -ms-linear-gradient(top, #dba2a2, #bf5858);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #dba2a2), color-stop(100%, #bf5858));
+  background-image: -webkit-linear-gradient(top, #dba2a2, #bf5858);
+  background-image: -o-linear-gradient(top, #dba2a2, #bf5858);
+  background-image: linear-gradient(#dba2a2, #bf5858);
+  border-color: #bf5858 #bf5858 hsl(0, 45%, 50%);
+  color: #333 !important;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.33);
+  -webkit-font-smoothing: antialiased;
+}
+
+
+
+ h3 {
+  font-family: 'Poppins', sans-serif;
+ }
+
+ #name {
+  position: relative;
+  right: 6px;
+ }
+
+#nameLabel {
+  position: relative;
+  right: 10px;
+  margin-left: 2px;
 }

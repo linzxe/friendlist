@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>bootstrap</title>
+	<title>Friend List</title>
 
 <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
  --><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     
@@ -14,48 +13,55 @@
 
     <link href='https://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
 
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+
 
 </head>
 <body>
 
-   
-       <h3>Add a Friend</h3>
+   <div class="container">
+
+       <h3 style="font-family: 'Poppins', sans-serif; text-align: center">Add a Friend</h3>
 
        <!--Name-->
+       <div class="smContainer">
+           <label id="nameLabel">Name:    <input type="text" id="name"></p>
 
-           <p>Name: <input type="text" id="name"></p>
-
-       <!--Occupation-->
-
-           <p>Occupation: <input type="text" id="occupation"></p>
 
        <!--Age-->
 
-           <p>Age: <input type="text" id="age"></p>
+           <label>Age: <input type="text" id="age"></p>
 
-       <button id="add-friend">Add</button>
+       <!--Hobby-->
+
+           <br />
+
+       <button id="btn-custom" class="btn btn-custom">Add</button>
+        </div>
+
 
        <!--GET Friends-->
-       <h3>Friends:<p id="numfriend"> </p></h3>
+       <h3 style="  font-family: 'Poppins', sans-serif; text-align: center">Friends:<p id="numfriend"> </p></h3>
        
+       <div class="smContainer">
        <table id="table" class="table table-border table-hover">
          <thead>
-           <tr>
-             <th>First Name</th>
-             <th>Occupation</th>
+           <!-- <tr>
+             <th>Name</th>
              <th>Age</th>
-             <th>Button</th>
+             
            </tr>
-
+ -->
          </thead>
          <tbody id="friends">
-           <tr>
-               
-           </tr>
+
            
          </tbody>
        </table>
-       
+       </div>
    </div>
 
 
